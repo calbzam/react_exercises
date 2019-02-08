@@ -6,7 +6,6 @@ import { MemberHead } from './memberHead';
 import { InputCompanyComponent } from '../InputCompanyComponent';
 import {} from 'core-js';
 
-
 interface Props {
 }
 
@@ -37,6 +36,7 @@ export class MembersTableComponent extends React.Component<Props, State> {
     this.setState({ organization: newName });
   }
 
+  
   public render() {
 
     return (
